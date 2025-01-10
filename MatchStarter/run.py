@@ -4,7 +4,7 @@ from rlbot.setup_manager import SetupManager, RocketLeagueLauncherPreference
 from rlbot_gui.match_runner.match_runner import start_match_helper
 from rlbot_gui.gui import get_bots_from_directory
 
-
+human = {'name': 'Human', 'team': 0, 'type': 'human', 'skill': None, 'path': None}
 
 def load_bots():
     BOT_FOLDER_SETTINGS_KEY = 'bot_folder_settings'
