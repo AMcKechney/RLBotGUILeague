@@ -75,7 +75,7 @@ def start_match(bot_list, match_settings):
         eel.noRLBotFlagPopup()
         print(f"Error starting match. This is probably due to Rocket League not being started under the -rlbot flag. {e}")
     else:
-        eel.spawn(start_match_helper, bot_list, match_settings, launcher_prefs)
+        eel.spawn(start_match_helper, bot_list, match_settings, launcher_prefs, False)
 
 
 @eel.expose
